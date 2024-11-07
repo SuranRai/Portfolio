@@ -13,13 +13,165 @@
     width: 75%;
     margin: auto;
 }
+.quote {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+
+}
 .me {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  border-radius: 50%;
+  width: 60%;
 }
+.blue {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+
+    min-width: 20px;
+    max-width: 310px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+.blue * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.blue img {
+    max-width: 65%;
+    margin: 40px auto;
+    display: block;
+    position: relative;
+    border: 3px solid #666666;
+    padding: 15px 15px 85px 15px;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  
+.blue figcaption {
+    position: absolute;
+    height: 120px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: block;
+  }
+  
+.blue h3 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.7em;
+    width: 100%;
+    padding: 5px 12px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+ .blue h3 span {
+    font-weight: 800;
+  }
+  
+.blue h4 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    opacity: 0.6;
+    font-size: 1.1em;
+  }
+  
+.blue img {
+    border-color: #2472a4;
+  }
+  
+.blue h3,
+  figure.snip1113.blue h4 {
+    color: #2472a4;
+  }
+  
+  
+  
+  figure.snip1113 h3 span {
+    font-weight: 800;
+  }
+  
+  figure.snip1113 h4 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    opacity: 0.6;
+    font-size: 1.1em;
+  }
+  
+  figure.snip1113.blue img {
+    border-color: #2472a4;
+  }
+  
+  figure.snip1113.blue h3,
+  figure.snip1113.blue h4 {
+    color: #2472a4;
+  }
+  
+  figure.snip1113.red img {
+    border-color: #ab3326;
+  }
+  
+  figure.snip1113.red h3,
+  figure.snip1113.red h4 {
+    color: #ab3326;
+  }
+  
+  figure.snip1113.yellow img {
+    border-color: #e08e0b;
+  }
+  
+  figure.snip1113.yellow h3,
+  figure.snip1113.yellow h4 {
+    color: #e08e0b;
+  }
+  
+  figure.snip1113.green img {
+    border-color: #229955;
+  }
+  
+  figure.snip1113.green h3,
+  figure.snip1113.green h4 {
+    color: #229955;
+  }
+  
+  figure.snip1113.orange img {
+    border-color: #d67118;
+  }
+  
+  figure.snip1113.orange h3,
+  figure.snip1113.orange h4 {
+    color: #d67118;
+  }
+  
+  figure.snip1113.navy img {
+    border-color: #2b3c4e;
+  }
+  
+  figure.snip1113.navy h3,
+  figure.snip1113.navy h4 {
+    color: #2b3c4e;
+  }
+
+
+
 .head   {
     text-align: center;
     text-decoration-line: underline;
@@ -32,10 +184,25 @@
 .intro  {
     font-size:larger;
 }
+.hobbies {
+text-align: center;
+font-family: "Dancing Script", cursive;
+font-optical-sizing: auto;
+font-weight:bolder;
+font-style: normal;
+color: #FFFFFF;
+text-decoration: none;
+}
 .container > h2 {
     padding-top: 20px;
 }
 .flex-container {
+    --s: 10px; /* control the size */
+    padding: var(--s);
+    border: calc(2*var(--s)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-1*var(--s));
+    background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -43,6 +210,7 @@
 
 }
 .flex-image {
+    
     display: flex;
     width:100%;
     padding: 0px;
@@ -195,6 +363,9 @@ img {
     .me{
         width:40%;
     }
+    .quote {
+        font-size: 20px;
+    }
     .container { 
         width: 80%;
         text-align: center;
@@ -236,6 +407,9 @@ img {
     .me{
         width:35%;
     }
+    .quote {
+        font-size: 20px;
+    }
     .container { 
         width: 90%;
         text-align: center;
@@ -272,6 +446,9 @@ img {
     }
     .me{
         width:30%;
+    }
+    .quote {
+        font-size: 25px;
     }
     .container { 
         width: 85%;
