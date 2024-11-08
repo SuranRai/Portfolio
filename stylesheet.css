@@ -1,9 +1,10 @@
 #main {
-    background: linear-gradient(300deg, #eb7514, #81dcd4, #e65e4c);
+    background: linear-gradient(300deg, #eb7514,#e65e4c, #81dcd4);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
     width: 95%;
     margin: auto;
+    font-family: 'Roboto Mono', monospace;
 }
   
 .top  {
@@ -102,73 +103,125 @@
     color: #2472a4;
   }
   
-  
-  
-  figure.snip1113 h3 span {
-    font-weight: 800;
-  }
-  
-  figure.snip1113 h4 {
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    opacity: 0.6;
-    font-size: 1.1em;
-  }
-  
-  figure.snip1113.blue img {
-    border-color: #2472a4;
-  }
-  
-  figure.snip1113.blue h3,
-  figure.snip1113.blue h4 {
-    color: #2472a4;
-  }
-  
-  figure.snip1113.red img {
-    border-color: #ab3326;
-  }
-  
-  figure.snip1113.red h3,
-  figure.snip1113.red h4 {
-    color: #ab3326;
-  }
-  
-  figure.snip1113.yellow img {
-    border-color: #e08e0b;
-  }
-  
-  figure.snip1113.yellow h3,
-  figure.snip1113.yellow h4 {
-    color: #e08e0b;
-  }
-  
-  figure.snip1113.green img {
-    border-color: #229955;
-  }
-  
-  figure.snip1113.green h3,
-  figure.snip1113.green h4 {
-    color: #229955;
-  }
-  
-  figure.snip1113.orange img {
-    border-color: #d67118;
-  }
-  
-  figure.snip1113.orange h3,
-  figure.snip1113.orange h4 {
-    color: #d67118;
-  }
-  
-  figure.snip1113.navy img {
-    border-color: #2b3c4e;
-  }
-  
-  figure.snip1113.navy h3,
-  figure.snip1113.navy h4 {
-    color: #2b3c4e;
-  }
+  @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1113 {
+    align-items: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 0px;
+  max-width: 0px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1113 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+figure.snip1113 img {
+  max-width: 65%;
+  margin: 40px auto;
+  display: block;
+  position: relative;
+  border: 3px solid #666666;
+  padding: 15px 15px 85px 15px;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+figure.snip1113 figcaption {
+  position: absolute;
+  height: 120px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+figure.snip1113 h3 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.7em;
+  width: 100%;
+  padding: 5px 12px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1113 h3 span {
+  font-weight: 800;
+}
+
+figure.snip1113 h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-size: 1.1em;
+}
+
+figure.snip1113.blue img {
+  border-color: #2472a4;
+}
+
+figure.snip1113.blue h3,
+figure.snip1113.blue h4 {
+  color: #2472a4;
+}
+
+figure.snip1113.red img {
+  border-color: #ab3326;
+}
+
+figure.snip1113.red h3,
+figure.snip1113.red h4 {
+  color: #ab3326;
+}
+
+figure.snip1113.yellow img {
+  border-color: #e08e0b;
+}
+
+figure.snip1113.yellow h3,
+figure.snip1113.yellow h4 {
+  color: #e08e0b;
+}
+
+figure.snip1113.green img {
+  border-color: #229955;
+}
+
+figure.snip1113.green h3,
+figure.snip1113.green h4 {
+  color: #229955;
+}
+
+figure.snip1113.orange img {
+  border-color: #d67118;
+}
+
+figure.snip1113.orange h3,
+figure.snip1113.orange h4 {
+  color: #d67118;
+}
+
+figure.snip1113.navy img {
+  border-color: #2b3c4e;
+}
+
+figure.snip1113.navy h3,
+figure.snip1113.navy h4 {
+  color: #2b3c4e;
+}
+
 
 
 
@@ -190,12 +243,80 @@ font-family: "Dancing Script", cursive;
 font-optical-sizing: auto;
 font-weight:bolder;
 font-style: normal;
-color: #FFFFFF;
-text-decoration: none;
+font-size: larger;
 }
+
+
 .container > h2 {
     padding-top: 20px;
 }
+body {
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .wave {
+    float: left;
+    margin: 0px;
+    animation: wave  ease-in-out 0.5s infinite alternate;
+    transform-origin: center -36px;
+  }
+  
+  .wave:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  .wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 100px;
+  
+  }
+  
+  .wave figcaption {
+    text-align: center;
+  }
+  
+  .wave:after{
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px; 
+    left: 50%;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(35deg);
+  }
+         
+  .wave:before{
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+  }
+          
+  @keyframes wave {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+  }
+  
+  
+  
 .flex-container {
     --s: 10px; /* control the size */
     padding: var(--s);
@@ -326,6 +447,9 @@ footer {
     .me{
         width:50%;
     }
+    .quote {
+        font-size: 25px;
+    }
     .container { 
         width: 90%;
         text-align: center;
@@ -364,7 +488,7 @@ img {
         width:40%;
     }
     .quote {
-        font-size: 20px;
+        font-size: 25px;
     }
     .container { 
         width: 80%;
@@ -408,7 +532,7 @@ img {
         width:35%;
     }
     .quote {
-        font-size: 20px;
+        font-size: 30px;
     }
     .container { 
         width: 90%;
@@ -448,7 +572,7 @@ img {
         width:30%;
     }
     .quote {
-        font-size: 25px;
+        font-size: 30px;
     }
     .container { 
         width: 85%;
